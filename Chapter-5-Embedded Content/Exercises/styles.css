@@ -1,0 +1,59 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Light cyan background */
+    background-image: url('https://cdn.gameleap.com/images/articles/art_JAv_JqYb0c/feature/1x.webp'); /*Cactus background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #2e7d32; /* Dark green text color */
+}
+
+header {
+    background-color: #2e7d32; /* Dark green header */
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Tahoma', sans-serif;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.video-container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+video {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #2e7d32; /* Dark green footer */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 0.9em;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
